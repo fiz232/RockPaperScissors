@@ -1,0 +1,137 @@
+body {
+  text-align: center;
+  background: url(https://media.istockphoto.com/id/1170275727/vector/vector-seamless-pattern-background-icon.jpg?s=612x612&w=0&k=20&c=c15Xruxr57FBz8Hy12j_G5FATaQF4BSHSQkh1-mWxps=);
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  border: solid black;
+  border-radius: 50px;
+  background-color: white;
+}
+
+#popUp {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  border: solid black;
+  border-top: 8px solid black;
+  border-left: 5px solid black;
+  border-radius: 20px;
+  background-color: #dedede;
+  margin: 0 0 0 176px;
+  z-index: 3;
+  font-family: "Press Start 2P", cursive;
+}
+
+h4 {
+  margin: 40px 0;
+}
+
+#container {
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  border: solid black;
+  border-top: 8px solid black;
+  border-left: 5px solid black;
+  border-radius: 20px;
+  background-color: #dedede;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  font-size: 50px;
+}
+
+#computerHeart {
+  margin: 0 0 30px 370px;
+}
+
+#yourHeart {
+  margin: -50px 450px 0 0;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+}
+
+button {
+  margin: 0 60px;
+  border-radius: 50%;
+  border: solid black;
+  border-bottom: 5px solid black;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.buttonPic {
+  width: 20px;
+  height: 20px;
+}
+
+.yourPic {
+  margin: 50px 60px 0 60px;
+}
+
+.computerPic {
+  margin: 50px 60px 0 45px;
+}
+
+#computerRock {
+  position: absolute;
+  bottom: 1px;
+  left: 105px;
+  z-index: 1;
+}
+
+#computerScissors {
+  position: absolute;
+  bottom: 1px;
+  right: 110px;
+  z-index: 2;
+}
+
+h5 {
+  position: absolute;
+  width: 300px;
+  margin: 0 0 0 150px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.line {
+  width: 600px;
+  height: 10px;
+  border-bottom: 3px solid black;
+  position: absolute;
+}
+
+#computer {
+  position: relative;
+  width: 70px;
+  height: 60px;
+  margin: -100px 450px 20px 0;
+}
+
+#you {
+  position: relative;
+  width: 60px;
+  height: 70px;
+  margin: 40px 0 0 450px;
+}
+
+#h4Com {
+  position: absolute;
+  margin: -50px 0 0 250px;
+  font-family: "Press Start 2P", cursive;
+}
+
+#h4You {
+  position: absolute;
+  margin: -50px 0 0 280px;
+  font-family: "Press Start 2P", cursive;
+}

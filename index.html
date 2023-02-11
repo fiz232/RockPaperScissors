@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors🪨📄✂️</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <br />
+      <h1>Rock, Paper, Scissors</h1>
+      <br />
+      <div id="popUp">
+        <h4>Welcome to Rock, Paper, Scissors!</h4>
+        <p>You know the rules:</p>
+        <img src="./assets/gamerules.png" />
+        <h6>Press start when you're ready!</h6>
+        <img id="startBtn" src="./assets/StartBtn.png" />
+      </div>
+      <div style="opacity: 0" id="container">
+        <ul id="computerHeart">
+          <li id="heart1"><img src="./assets/ROCK-Heart.png" /></li>
+          <li id="heart2"><img src="./assets/ROCK-Heart.png" /></li>
+          <li id="heart3"><img src="./assets/ROCK-Heart.png" /></li>
+        </ul>
+        <img id="computer" src="./assets/Computer_pixel.png" />
+        <h4 id="h4Com">Computer</h4>
+        <div class="line"></div>
+        <ul>
+          <li class="computerPic">
+            <img
+              style="opacity: 0"
+              id="computerRock"
+              src="./assets/ROCK-Rock.png"
+            />
+          </li>
+          <li class="computerPic">
+            <img
+              style="opacity: 0"
+              id="computerPaper"
+              src="./assets/ROCK-Paper.png"
+            />
+          </li>
+          <li class="computerPic">
+            <img
+              style="opacity: 0"
+              id="computerScissors"
+              src="./assets/ROCK-Scissors.png"
+            />
+          </li>
+        </ul>
+        <h5 id="results"></h5>
+        <ul>
+          <li class="yourPic">
+            <img
+              style="opacity: 0"
+              id="yourRock"
+              src="./assets/ROCK-Rock.png"
+            />
+          </li>
+          <li class="yourPic">
+            <img
+              style="opacity: 0"
+              id="yourPaper"
+              src="./assets/ROCK-Paper.png"
+            />
+          </li>
+          <li class="yourPic">
+            <img
+              style="opacity: 0"
+              id="yourScissors"
+              src="./assets/ROCK-Scissors.png"
+            />
+          </li>
+        </ul>
+        <div class="line"></div>
+        <img id="you" src="./assets/you_pixel.png" />
+        <h4 id="h4You">You</h4>
+        <ul id="yourHeart">
+          <li id="heart4"><img src="./assets/ROCK-Heart.png" /></li>
+          <li id="heart5"><img src="./assets/ROCK-Heart.png" /></li>
+          <li id="heart6"><img src="./assets/ROCK-Heart.png" /></li>
+        </ul>
+      </div>
+      <br /><br />
+      <button id="Rock">
+        <img class="buttonPic" src="./assets/ROCK-Rock.png" alt="Rock" />
+      </button>
+      <button id="Paper">
+        <img class="buttonPic" src="./assets/ROCK-Paper.png" alt="Paper" />
+      </button>
+      <button id="Scissors">
+        <img
+          class="buttonPic"
+          src="./assets/ROCK-Scissors.png"
+          alt="Scissors"
+        />
+      </button>
+      <br /><br />
+    </div>
+  </body>
+</html>
