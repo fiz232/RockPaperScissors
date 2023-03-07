@@ -11,16 +11,11 @@
 - Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both player and computer chooses the same hand signal, it is considered a tie.
 - Player and computer both have 3 lives or hearts. If one of them loses in a round, a heart will be lost. Both play until one of them loses all three hearts. The one that is last to lose 3 hearts is the winner.
 
-## Challenges
-
-- Took me some time to figure out how to make only the current chosen hand signal to appear and the previous signals hidden.
-- I took a long time researching and trying different codes to make the computer hand signals image loop animation to work. And after I successfully make the animation work, I had a hard time trying to make it stop when player choice is made, so that the computer choice can be shown.
-
 ## Technology in use
 
 - HTML, CSS and Vanilla Javascript
 
-## Future note to self
+## Improvements to be made
 
 - Make the buttons non-clickable after the first play through.
 - Add an alert box/ popup window to tell player to play the next move
