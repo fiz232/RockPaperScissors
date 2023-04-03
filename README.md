@@ -23,7 +23,7 @@
 
 ## Link to game
 
-https://pages.git.generalassemb.ly/fiz232/RockPaperScissors/
+https://rock-paper-scissors-fiz232.vercel.app/
 
 ## Asset sources
 
